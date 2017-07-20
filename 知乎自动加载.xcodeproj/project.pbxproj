@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2162910D1F2086DA0008272D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2162910C1F2086DA0008272D /* main.m */; };
+		216291101F2086DA0008272D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2162910F1F2086DA0008272D /* AppDelegate.m */; };
+		216291131F2086DA0008272D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 216291121F2086DA0008272D /* ViewController.m */; };
+		216291161F2086DA0008272D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216291141F2086DA0008272D /* Main.storyboard */; };
+		216291181F2086DA0008272D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216291171F2086DA0008272D /* Assets.xcassets */; };
+		2162911B1F2086DA0008272D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216291191F2086DA0008272D /* LaunchScreen.storyboard */; };
+		2A20482819BC52C1FD36598B /* libPods-知乎自动加载.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A16CEAD9CB1AC8079173592E /* libPods-知乎自动加载.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		216291081F2086DA0008272D /* 知乎自动加载.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "知乎自动加载.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2162910C1F2086DA0008272D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2162910E1F2086DA0008272D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2162910F1F2086DA0008272D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		216291111F2086DA0008272D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		216291121F2086DA0008272D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		216291151F2086DA0008272D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		216291171F2086DA0008272D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2162911A1F2086DA0008272D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2162911C1F2086DA0008272D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50D2784EA9127565B4DBB848 /* Pods-知乎自动加载.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-知乎自动加载.release.xcconfig"; path = "Pods/Target Support Files/Pods-知乎自动加载/Pods-知乎自动加载.release.xcconfig"; sourceTree = "<group>"; };
+		74089995C0AD14F364EA323D /* Pods-知乎自动加载.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-知乎自动加载.debug.xcconfig"; path = "Pods/Target Support Files/Pods-知乎自动加载/Pods-知乎自动加载.debug.xcconfig"; sourceTree = "<group>"; };
+		A16CEAD9CB1AC8079173592E /* libPods-知乎自动加载.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-知乎自动加载.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		216291051F2086DA0008272D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A20482819BC52C1FD36598B /* libPods-知乎自动加载.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		216290FF1F2086DA0008272D = {
+			isa = PBXGroup;
+			children = (
+				2162910A1F2086DA0008272D /* 知乎自动加载 */,
+				216291091F2086DA0008272D /* Products */,
+				A899D2654E276FD75921ACEF /* Pods */,
+				40DE7B4AC36896E8B5F4FFBA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		216291091F2086DA0008272D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				216291081F2086DA0008272D /* 知乎自动加载.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2162910A1F2086DA0008272D /* 知乎自动加载 */ = {
+			isa = PBXGroup;
+			children = (
+				2162910E1F2086DA0008272D /* AppDelegate.h */,
+				2162910F1F2086DA0008272D /* AppDelegate.m */,
+				216291111F2086DA0008272D /* ViewController.h */,
+				216291121F2086DA0008272D /* ViewController.m */,
+				216291141F2086DA0008272D /* Main.storyboard */,
+				216291171F2086DA0008272D /* Assets.xcassets */,
+				216291191F2086DA0008272D /* LaunchScreen.storyboard */,
+				2162911C1F2086DA0008272D /* Info.plist */,
+				2162910B1F2086DA0008272D /* Supporting Files */,
+			);
+			path = "知乎自动加载";
+			sourceTree = "<group>";
+		};
+		2162910B1F2086DA0008272D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2162910C1F2086DA0008272D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40DE7B4AC36896E8B5F4FFBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A16CEAD9CB1AC8079173592E /* libPods-知乎自动加载.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A899D2654E276FD75921ACEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74089995C0AD14F364EA323D /* Pods-知乎自动加载.debug.xcconfig */,
+				50D2784EA9127565B4DBB848 /* Pods-知乎自动加载.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		216291071F2086DA0008272D /* 知乎自动加载 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2162911F1F2086DA0008272D /* Build configuration list for PBXNativeTarget "知乎自动加载" */;
+			buildPhases = (
+				34D5FA16F170EC94D63386ED /* [CP] Check Pods Manifest.lock */,
+				216291041F2086DA0008272D /* Sources */,
+				216291051F2086DA0008272D /* Frameworks */,
+				216291061F2086DA0008272D /* Resources */,
+				F5497A7C4F0D1A9B1B35649F /* [CP] Embed Pods Frameworks */,
+				B99CCA28BB6CA4E8E51E74BD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "知乎自动加载";
+			productName = "知乎自动加载";
+			productReference = 216291081F2086DA0008272D /* 知乎自动加载.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		216291001F2086DA0008272D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = xiexin;
+				TargetAttributes = {
+					216291071F2086DA0008272D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 216291031F2086DA0008272D /* Build configuration list for PBXProject "知乎自动加载" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 216290FF1F2086DA0008272D;
+			productRefGroup = 216291091F2086DA0008272D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				216291071F2086DA0008272D /* 知乎自动加载 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		216291061F2086DA0008272D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2162911B1F2086DA0008272D /* LaunchScreen.storyboard in Resources */,
+				216291181F2086DA0008272D /* Assets.xcassets in Resources */,
+				216291161F2086DA0008272D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34D5FA16F170EC94D63386ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B99CCA28BB6CA4E8E51E74BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-知乎自动加载/Pods-知乎自动加载-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5497A7C4F0D1A9B1B35649F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-知乎自动加载/Pods-知乎自动加载-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		216291041F2086DA0008272D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				216291131F2086DA0008272D /* ViewController.m in Sources */,
+				216291101F2086DA0008272D /* AppDelegate.m in Sources */,
+				2162910D1F2086DA0008272D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		216291141F2086DA0008272D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				216291151F2086DA0008272D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		216291191F2086DA0008272D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2162911A1F2086DA0008272D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2162911D1F2086DA0008272D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2162911E1F2086DA0008272D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		216291201F2086DA0008272D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74089995C0AD14F364EA323D /* Pods-知乎自动加载.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "知乎自动加载/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yishan.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		216291211F2086DA0008272D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D2784EA9127565B4DBB848 /* Pods-知乎自动加载.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "知乎自动加载/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yishan.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		216291031F2086DA0008272D /* Build configuration list for PBXProject "知乎自动加载" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2162911D1F2086DA0008272D /* Debug */,
+				2162911E1F2086DA0008272D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2162911F1F2086DA0008272D /* Build configuration list for PBXNativeTarget "知乎自动加载" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216291201F2086DA0008272D /* Debug */,
+				216291211F2086DA0008272D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 216291001F2086DA0008272D /* Project object */;
+}
